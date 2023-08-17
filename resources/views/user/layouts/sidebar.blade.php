@@ -21,8 +21,8 @@
                         <span>Contact module</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="#">Contact manage</a></li>
-                        <li><a href="#">Contact add</a></li>
+                        <li><a href="{{ route('contact.index') }}">Contact manage</a></li>
+                        <li><a href="{{ route('contact.create') }}">Contact add</a></li>
                     </ul>
                 </li>
                 
